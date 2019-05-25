@@ -1,0 +1,24 @@
+{
+  "name": "realsign",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "heroku-postbuild": "cd client && npm install && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/pstjean/cs361-realsign.git"
+  },
+  "author": "Peter St.Jean <peter@stjean.co>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://gitlab.com/pstjean/cs361-realsign/issues"
+  },
+  "homepage": "https://gitlab.com/pstjean/cs361-realsign#readme",
+  "private": true,
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
